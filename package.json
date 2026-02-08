@@ -1,0 +1,36 @@
+{
+  "name": "e-comm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeZHar/e-comm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeZHar/e-comm/issues"
+  },
+  "homepage": "https://github.com/LukeZHar/e-comm#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "ioredis": "^5.9.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.6",
+    "stripe": "^20.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
